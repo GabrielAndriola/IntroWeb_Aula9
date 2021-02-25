@@ -1,0 +1,163 @@
+body{
+	background-image: url(fundo.png);
+}
+div#interface{
+	width: 900px;
+	background-color: #01162b;
+	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(233,194,109,0.5);
+	padding: 35px;
+}
+#lol{
+	width: 300px;
+	position: relative;
+	left: 30%;
+	box-shadow: 0px 0px 10px rgba(233,194,109,0.5); 
+}
+#ashe{
+	width: 300px;
+	position: absolute;
+	margin-top: 20px;
+	left: 75%;
+}
+#teemo{
+	width: 200px;
+	position: absolute;
+	margin-top: 20px;
+	left: 3%;
+}
+#kabum{
+	width: 400px;
+	position: relative;
+	margin-bottom: 1px;
+	box-shadow: 0px 0px 10px rgba(233,194,109,0.5);
+}
+figcaption p{
+	text-align: center;
+	font-family: Bahnschrift;
+	color: #e9c26d;
+	position: relative;
+	margin-top: 0px;
+}
+#titulocb{
+	position: relative;
+	font-family: Bahnschrift;
+	color: #e9c26d;
+	text-align: center;
+	text-shadow: 1px 1px black;
+	margin-bottom: 3px;
+
+}
+#subtitulo{
+	position: relative;
+	font-family: Bahnschrift;
+	color: #e9c26d;
+	text-align: center;
+	text-shadow: 1px 1px black;
+	margin-top: 3px;
+}
+#titulo1{
+	position: relative;
+	font-family: Bahnschrift;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px black;
+	margin-top: 3px;
+}
+#texto{
+	text-align: justify;
+	font-family: Bahnschrift;
+	color: white;
+	position: relative;
+}
+h3{
+	position: center;
+	font-family: Bahnschrift;
+	font-size: x-large;
+	color: white;
+	text-shadow: 1px 1px black;
+	margin-top: 3px;
+	margin-bottom: 1px;
+}
+h4{
+	position: center;
+	font-family: Bahnschrift;
+	font-size: x-large;
+	color: white;
+	text-shadow: 1px 1px black;
+	margin-top: 3px;
+	margin-bottom: 1px;
+}
+ul{
+	list-style-type: square;
+	font-family: Bahnschrift;
+	color: white;
+	text-shadow: 1px 1px black;
+	margin-left: auto;
+	margin-right: auto;
+}
+ol{
+	list-style-image: url(lista.png);
+	list-style-position: outside;
+	font-family: Bahnschrift;
+	color: white;
+	text-shadow: 1px 1px black;
+	margin-left: auto;
+	margin-right: auto;
+}
+table{
+	text-align: right;
+	font-family: Bahnschrift;
+	color: white;
+	border: 1px solid #e9c26d;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+table td{
+	border: 1px solid #e9c26d;
+	padding: 10px;
+
+}
+#frase{
+	text-align: center;
+	color: white;
+	position: relative;
+	font-family: Bahnschrift;
+	font-size: xx-large;
+	text-shadow: 1px 1px black;
+	border-color: #e9c26d;
+	border-width: 5px;
+	border-style: dashed;
+	box-shadow: 0px 0px 10px rgba(233,194,109,0.5);
+}
+#nome{
+	color: white;
+	text-shadow: 1px 1px black;
+	font-family: Bahnschrift;
+	position: relative;
+}
+section#corpo{
+	display: block;
+	width: 400px;
+	float: left;
+	border-right: 1px solid #e9c26d;
+	padding-right: 45px;
+	border-top: 1px solid #e9c26d;
+	padding-top: 20px;
+}
+aside#lateral{
+	display: block;
+	width: 400px;
+	float: right;
+	border-top: 1px solid #e9c26d;
+	padding-top: 20px;
+	padding-left: 54px;
+}
+footer#rodape{
+	clear: both;
+	border-top: 1px solid #e9c26d;
+}
+footer#rodape p{
+	text-align: center;
+}
